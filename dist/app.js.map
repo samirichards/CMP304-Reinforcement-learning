@@ -1,0 +1,1 @@
+{"version":3,"file":"app.js","mappings":";;AAAAA,CAAC,CAACC,QAAD,CAADD,CAAYE,KAAZF,CAAkB,YAAW;AAC1BG,OAAK,CAAC,gBAAD,CAALA;AADH","names":["$","document","ready","alert"],"sources":["../view/scripts/app.js"],"sourcesContent":["$(document).ready(function (){\r\n   alert(\"Document ready\");\r\n});"]}
