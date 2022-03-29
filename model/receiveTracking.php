@@ -17,6 +17,11 @@
     }
 
     var_dump(json_encode($decoded));
-    throw new Exception($decoded["message"]);
+
+    $numberOfStates = 3;
+    $numberOfActions = 3;
+    $qMatrix = array_fill(0, $numberOfStates, array_fill(0, $numberOfActions, 0.0));
+
+    //throw new Exception($decoded["itemViewingID"]);
 
 ?>

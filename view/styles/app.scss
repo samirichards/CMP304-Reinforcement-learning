@@ -1,7 +1,54 @@
+@use "../../node_modules/@material/theme" with (
+  $primary: #fff,
+  $secondary: #fff,
+  $background: #484848,
+);
+
+@use "../../node_modules/@material/shape" with (
+  $small-component-radius: 6px,
+  $medium-component-radius: 8px,
+  $large-component-radius: 18px,
+);
+
+@use "../../node_modules/@material/floating-label/mdc-floating-label";
+@use "../../node_modules/@material/line-ripple/mdc-line-ripple";
+@use "../../node_modules/@material/notched-outline/mdc-notched-outline";
+@use "../../node_modules/@material/textfield" with (
+  $ink-color: #fff,
+  $outlined-hover-border: #d7d7d7,
+  $focused-label-color: #fff,
+  $outlined-idle-border: #fff,
+  $textarea-border: #fff
+);
+
+
+@use "../../node_modules/material-components-web";
+@use "../../node_modules/@material/ripple";
+@use "../../node_modules/@material/icon-button";
+@use "../../node_modules/@material/card";
+
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+
+
+
 body{
-  background: #484848
+  background: #484848;
 }
 
 //Custom rules here
+
+.articleContent{
+  min-height: 30vh;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.masthead {
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  filter: brightness(75%);
+}

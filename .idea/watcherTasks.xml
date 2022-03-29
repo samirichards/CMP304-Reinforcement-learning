@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectTasksOptions">
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="$FileName$:$ProjectFileDir$/dist/$FileNameWithoutExtension$.css" />
+      <option name="arguments" value="--load-path=../../node_modules --update --style compressed $FileName$:$ProjectFileDir$/dist/$FileNameWithoutExtension$.css" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />

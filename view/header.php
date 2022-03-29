@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../dist/app.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
     <script src="../dist/app.js"></script>
 </head>
 
@@ -23,6 +24,9 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link" href="home.php">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="search.php">Search</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav">
@@ -43,16 +47,13 @@
                             echo            "<a class='nav-link' href='account.php'>Account</a>";
                             echo        "</li>";
                             echo        "<li class='nav-item'>";
-                            echo            "<a class='nav-link' href='logout.php'>Logout</a>";
+                            echo            "<a class='nav-link' href='../model/logout.php'>Logout</a>";
                             echo        "</li>";
                             echo    "</ul>";
                         }
                         else{
                             echo "<li class='nav-item'>";
                             echo    "<a class='nav-link' href='login.php'>Login</a>";
-                            echo "</li>";
-                            echo "<li class='nav-item'>";
-                            echo    "<a class='nav-link' href='register.php'>Register</a>";
                             echo "</li>";
                         }
                     ?>
